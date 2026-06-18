@@ -3,16 +3,12 @@ body {
     font-size: 18px;
 }
 /*
- footer {  
+ footer and header background-color {  
     font-style
 }*/
 
-footer { 
-    color: green;
-}
-
-footer > p {
-    color: purple;
+header, footer {
+    background-color: lightblue;
 }
 
 section {
@@ -33,7 +29,7 @@ a {
 
 /* .LVHA */
 a:link {
-    text-decoration: none;
+    text-decoration: ;
 }
 
 a:visited {
@@ -52,10 +48,3 @@ li {
     font-weight: bold;
 }
  
-li:first-child {
-    background-color: gray;
-}
-
-li:nth-child(2) {
-    background-color: green;
-}
