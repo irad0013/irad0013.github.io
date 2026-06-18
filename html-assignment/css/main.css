@@ -11,6 +11,10 @@ header, footer {
     background-color: lightblue;
 }
 
+.site-title {
+    tex-color: yellow;
+}
+
 #my-image {
   box-shadow: 0 0 2px 1px black;
 }
