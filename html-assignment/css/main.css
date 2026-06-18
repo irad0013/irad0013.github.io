@@ -1,0 +1,64 @@
+body {
+    color: red;
+}
+header, footer {
+    font-style: italic;
+}
+
+/*
+ footer {  
+    font-style
+}*/
+
+footer { 
+    color: green;
+}
+
+footer > p {
+    color: purple;
+}
+
+section {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.local {
+    font-family:'Courier New', Courier, monospace;
+}
+
+#unique {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a {
+    /* color: green; */
+}
+
+/* .LVHA */
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: white;
+}
+
+li { 
+    font-weight: bold;
+}
+ 
+li:first-child {
+    background-color: gray;
+}
+
+li:nth-child(2) {
+    background-color: green;
+}
